@@ -1,0 +1,88 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+.card-grid{
+  background-color: #1a1a1a;
+  padding: 30px;
+  border-radius: 20px;
+  margin: auto;
+
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+.Nav{
+  background-color: #FFF166;
+  position: fixed;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 15%;
+}.Links{
+  color: #D90368;
+  text-decoration: underline;
+  font-size: 2vw;
+  transition: font-size 0.5s ease-in-out, color 0.5s ease-in-out;
+}.Links:hover{
+  font-size: 2.2vw;
+  color: #8f0646;
+}.Links:focus{
+  font-size: 1.8vw;
+  color: aqua;
+}
+.Nav img {
+  width: 80%;
+  padding: 10%;
+}.Egg img{
+  width: 50%;
+  height: auto;
+}
